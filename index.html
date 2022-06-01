@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+
+<body>
+	<form>
+		<label for="ArtifactCount">Number of Artifact Types: </label>
+		<input type="number" name="ArtifactCount" id="ArtifactCount" required value ="25"/>
+		
+		<br><br>
+		
+		<label for="SatisfyingCount">Number of Similar Artifacts in a row required: </label>
+		<input type="number" name="SatisfyingCount" id="SatisfyingCount" required>
+		
+		<br><br>
+		
+		<label for="Rolls">Rolls: </label>
+		<input type="number" name="Rolls" id="Rolls" required />
+		
+		<br><br>
+		
+		<input type="button" value="Submit" onclick="handleInput();">
+	</form>
+	
+	<div id="output">
+		
+	</div>
+	<script src="custom.js"></script>
+</body>
+
+</html>
